@@ -12,7 +12,7 @@ CHECKINSTALL=`which checkinstall`
 [ -n "$CHECKINSTALL" ] || error "Error: Please install checkinstall."
 
 src=$(pwd)
-pkgversion="18.0.4"
+pkgversion="22.0.4"
 [ -n "$src" -a -d "$src" ] || error "Error: qemu source code repo doesn't exist."
 
 
